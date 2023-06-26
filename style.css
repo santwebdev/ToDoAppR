@@ -1,0 +1,232 @@
+.Task{
+    color: rgb(72, 255, 0);
+    padding-left: 5px;
+
+}
+.Tasklist{
+    width: 100%;
+    height: 70px;
+    padding-top: 3px;
+    background-color: #f1f1f1;
+    box-shadow: 5px 5px 3px grey;
+
+}
+.click{
+    margin-left: 1100px;
+    display: flex;
+    margin-top: 25px;
+
+}
+.Taskclick1{
+    cursor: pointer;
+}
+.circle_plus{
+    color: rgb(21, 221, 218);
+    font-size: 45px;
+}
+.taskclick2{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.cardlist{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.card h2{
+    color: rgb(233, 25, 219);
+}
+.card{
+    border-radius: 10px;
+    width: 25%;
+    height: 300px;
+    font-size: 20px;
+    color: dimgray;
+    background-color: #f1f1f1;
+}
+.cross{
+    text-decoration: line-through;
+}
+.cardlist2{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.addcard{
+    height: 300px;
+    width: 40%;
+    border: 3px solid black;
+    box-shadow: 3px 2px 4px grey;
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.addhead{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:25px; ;
+}
+.input input{
+    width: 98%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.button{
+    width: 130px;
+    /* height: 30px;  */
+    background-color: rgb(134, 22, 87);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+}
+.button p{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+.opacity{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 50%;
+
+}
+.circle{
+    font-size: 45px;
+    color: black;
+}
+.click2{
+    /* margin-l: 1100px; */
+    display: flex;
+     margin-top: 50px; 
+    justify-content: center;
+    gap: 20px;
+
+}
+/* for mobile view */
+@media screen and (min-width:250px) and (max-width: 500px){
+
+    .Taskclick1{
+        cursor: pointer;
+        flex-direction: column;
+        
+    }
+    .click{
+        margin-left: 200px;
+        display: flex;
+        margin-top: 25px;
+    
+    }
+    .taskclick2{
+        font-size: 30px;
+        opacity: 0;
+    }
+    .card{
+        border-radius: 10px;
+        width: 70%;
+        height: 300px;
+        font-size: 20px;
+        color: dimgray;
+        background-color: #f1f1f1;
+        margin-top: 30px;
+    }
+    
+    .cardlist{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* body{
+        min-height: 200vh;
+       
+        
+    } */
+    .Tasklist{
+        
+        width: 100%;
+        height: 100px;
+        padding-top: 3px;
+        background-color: #f1f1f1;
+        box-shadow: 5px 5px 3px grey;
+       
+    
+    }
+    /* for first page */
+    .opacity{
+        width: 100%;
+        height: 1500px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        background-color: black;
+        opacity: 50%;
+    
+    }
+    .addcard{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 300px;
+        width: 80%;
+        border: 3px solid black;
+        box-shadow: 3px 2px 4px grey;
+        position: absolute;
+         top: 220px; 
+        right: 50px;  
+        background-color: white;
+        border-radius: 10px;
+        
+    
+    }
+    .addhead{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size:25px; ;
+    }
+    .input input{
+        width: 95%;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    .addtask{
+        font-size: 25px;
+        color: black;
+    }
+    .Taskclick4{
+       cursor: pointer;
+        }
+        .circle{
+            color: rgb(5, 5, 27);
+            font-size: 30px;
+
+    }
+    .click2{
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    .centre{
+        display: flex;
+        justify-content: space-around;
+       
+    
+}
+}
